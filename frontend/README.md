@@ -61,55 +61,47 @@ frontend/
 
 ---
 
-## Getting Started
+## 🚀 Quick Start (From A to Z)
 
-### Prerequisites
+Follow these steps to get the application running locally in under 5 minutes.
+
+### 1. Prerequisites
 
 - **Node.js** 18.x or higher
-- **npm** or **yarn**
-- **PostgreSQL** database (we recommend [Neon](https://neon.tech))
+- **PostgreSQL** database (Local or [Neon](https://neon.tech))
 
-### 1. Clone the Repository
+### 2. Installation
 
 ```bash
+# Clone and enter directory
 git clone <repository-url>
 cd challenge-gamification-app/frontend
-```
 
-### 2. Install Dependencies
-
-```bash
+# Install dependencies
 npm install
+
+# Configure environment
+cp .env.example .env
 ```
 
-### 3. Environment Setup
+### 3. Configuration
 
-Create a `.env` file in the `frontend` directory:
+Open `.env` and update the values:
 
 ```env
-# Database
-DATABASE_URL="postgresql://username:password@host:5432/database?sslmode=require"
-
-# NextAuth
-AUTH_SECRET="your-secret-key-here"
+DATABASE_URL="postgresql://user:pass@host:5432/db?sslmode=require"
+AUTH_SECRET="run: npx auth secret"
 AUTH_URL="http://localhost:3000"
 ```
 
-> **Generate AUTH_SECRET**: Run `npx auth secret` or use `openssl rand -base64 32`
-
-### 4. Database Setup
+### 4. Database & Run
 
 ```bash
-# Push schema to database
+# Push schema and seed data
 npm run db:push
-
-# Seed initial data (creates admin user, badges, challenges)
 npm run db:seed
-```
 
-### 5. Start Development Server
-
-```bash
+# Start development server
 npm run dev
 ```
 
@@ -148,7 +140,7 @@ After seeding the database, use these credentials to log in:
 | `npm run build` | Build for production |
 | `npm run start` | Start production server |
 | `npm run lint` | Run ESLint |
-| `npm run db:push` | Push Prisma schema to database |
+| `📦 npm run db:push` | Push Prisma schema to database |
 | `npm run db:seed` | Seed database with initial data |
 
 ---
@@ -157,7 +149,8 @@ After seeding the database, use these credentials to log in:
 
 | Route | Description |
 |-------|-------------|
-| `/api/auth/[...nextauth]` | NextAuth.js authentication endpoints |
+| `/api/auth/[...nextauth]` | NextAuth.js authenticta |
+| `npm run db:saudio` | Open Prismt Studio GUIion endpoints |
 
 ---
 
