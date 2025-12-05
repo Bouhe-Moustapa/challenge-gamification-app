@@ -1,0 +1,654 @@
+
+> frontend@0.1.0 dev
+> next dev -p 3005
+
+   ▲ Next.js 16.0.7 (Turbopack)
+   - Local:         http://localhost:3005
+   - Network:       http://10.17.15.9:3005
+   - Environments: .env
+
+ ✓ Starting...
+ ⚠ The "middleware" file convention is deprecated. Please use "proxy" instead. Learn more: https://nextjs.org/docs/messages/middleware-to-proxy
+ ✓ Ready in 1130ms
+ ○ Compiling /login ...
+ GET /login 200 in 3.9s (compile: 3.5s, proxy.ts: 125ms, render: 248ms)
+ GET /login 200 in 3.8s (compile: 3.4s, proxy.ts: 22ms, render: 310ms)
+ GET /login 200 in 361ms (compile: 179ms, proxy.ts: 89ms, render: 93ms)
+ GET /login 200 in 353ms (compile: 228ms, proxy.ts: 81ms, render: 45ms)
+ GET /login 200 in 80ms (compile: 7ms, proxy.ts: 19ms, render: 54ms)
+ GET /login 200 in 79ms (compile: 33ms, proxy.ts: 19ms, render: 28ms)
+ GET /login 200 in 81ms (compile: 5ms, proxy.ts: 19ms, render: 57ms)
+ GET /login 200 in 81ms (compile: 30ms, proxy.ts: 18ms, render: 33ms)
+ GET /login 200 in 73ms (compile: 5ms, proxy.ts: 16ms, render: 52ms)
+ GET /login 200 in 74ms (compile: 27ms, proxy.ts: 16ms, render: 31ms)
+ GET /login 200 in 92ms (compile: 6ms, proxy.ts: 20ms, render: 66ms)
+ GET /login 200 in 91ms (compile: 37ms, proxy.ts: 19ms, render: 35ms)
+ GET /login 200 in 72ms (compile: 5ms, proxy.ts: 18ms, render: 48ms)
+ GET /login 200 in 71ms (compile: 23ms, proxy.ts: 17ms, render: 30ms)
+ GET /login 200 in 64ms (compile: 6ms, proxy.ts: 16ms, render: 43ms)
+ GET /login 200 in 63ms (compile: 24ms, proxy.ts: 15ms, render: 25ms)
+ GET /login 200 in 68ms (compile: 7ms, proxy.ts: 14ms, render: 47ms)
+ GET /login 200 in 65ms (compile: 28ms, proxy.ts: 15ms, render: 23ms)
+ GET /login 200 in 74ms (compile: 4ms, proxy.ts: 15ms, render: 55ms)
+ GET /login 200 in 76ms (compile: 22ms, proxy.ts: 14ms, render: 40ms)
+ GET /login 200 in 82ms (compile: 4ms, proxy.ts: 36ms, render: 41ms)
+ GET /login 200 in 82ms (compile: 22ms, proxy.ts: 35ms, render: 25ms)
+ GET /login 200 in 67ms (compile: 4ms, proxy.ts: 16ms, render: 48ms)
+ GET /login 200 in 68ms (compile: 23ms, proxy.ts: 16ms, render: 29ms)
+ GET /login 200 in 62ms (compile: 8ms, proxy.ts: 14ms, render: 40ms)
+ GET /login 200 in 61ms (compile: 26ms, proxy.ts: 13ms, render: 22ms)
+ GET /login 200 in 62ms (compile: 4ms, proxy.ts: 19ms, render: 39ms)
+ GET /login 200 in 62ms (compile: 22ms, proxy.ts: 19ms, render: 21ms)
+ GET /login 200 in 61ms (compile: 5ms, proxy.ts: 13ms, render: 44ms)
+ GET /login 200 in 57ms (compile: 3ms, proxy.ts: 33ms, render: 20ms)
+ GET /login 200 in 63ms (compile: 5ms, proxy.ts: 16ms, render: 42ms)
+ GET /login 200 in 62ms (compile: 20ms, proxy.ts: 14ms, render: 27ms)
+ GET /login 200 in 60ms (compile: 6ms, proxy.ts: 14ms, render: 40ms)
+ GET /login 200 in 59ms (compile: 21ms, proxy.ts: 14ms, render: 24ms)
+ GET /login 200 in 61ms (compile: 5ms, proxy.ts: 13ms, render: 43ms)
+ GET /login 200 in 60ms (compile: 27ms, proxy.ts: 13ms, render: 21ms)
+ GET /login 200 in 57ms (compile: 6ms, proxy.ts: 12ms, render: 39ms)
+ GET /login 200 in 56ms (compile: 20ms, proxy.ts: 11ms, render: 25ms)
+ GET /login 200 in 61ms (compile: 4ms, proxy.ts: 15ms, render: 42ms)
+ GET /login 200 in 58ms (compile: 21ms, proxy.ts: 11ms, render: 25ms)
+ GET /login 200 in 69ms (compile: 6ms, proxy.ts: 18ms, render: 45ms)
+ GET /login 200 in 69ms (compile: 29ms, proxy.ts: 18ms, render: 22ms)
+ GET /login 200 in 58ms (compile: 19ms, proxy.ts: 14ms, render: 25ms)
+ GET /login 200 in 60ms (compile: 4ms, proxy.ts: 15ms, render: 41ms)
+ GET /login 200 in 57ms (compile: 6ms, proxy.ts: 12ms, render: 39ms)
+ GET /login 200 in 56ms (compile: 22ms, proxy.ts: 12ms, render: 22ms)
+ GET /login 200 in 64ms (compile: 4ms, proxy.ts: 13ms, render: 48ms)
+ GET /login 200 in 64ms (compile: 25ms, proxy.ts: 13ms, render: 26ms)
+ GET /login 200 in 65ms (compile: 6ms, proxy.ts: 14ms, render: 45ms)
+ GET /login 200 in 64ms (compile: 25ms, proxy.ts: 13ms, render: 27ms)
+ GET /login 200 in 61ms (compile: 5ms, proxy.ts: 15ms, render: 40ms)
+ GET /login 200 in 57ms (compile: 22ms, proxy.ts: 13ms, render: 23ms)
+ GET /login 200 in 69ms (compile: 6ms, proxy.ts: 16ms, render: 47ms)
+ GET /login 200 in 69ms (compile: 27ms, proxy.ts: 16ms, render: 26ms)
+ GET /login 200 in 69ms (compile: 4ms, proxy.ts: 18ms, render: 46ms)
+ GET /login 200 in 64ms (compile: 22ms, proxy.ts: 15ms, render: 28ms)
+ GET /login 200 in 61ms (compile: 4ms, proxy.ts: 16ms, render: 40ms)
+ GET /login 200 in 60ms (compile: 24ms, proxy.ts: 16ms, render: 20ms)
+ GET /login 200 in 62ms (compile: 6ms, proxy.ts: 12ms, render: 44ms)
+ GET /login 200 in 61ms (compile: 29ms, proxy.ts: 11ms, render: 21ms)
+ GET /login 200 in 63ms (compile: 6ms, proxy.ts: 13ms, render: 44ms)
+ GET /login 200 in 63ms (compile: 22ms, proxy.ts: 14ms, render: 28ms)
+ GET /login 200 in 56ms (compile: 4ms, proxy.ts: 14ms, render: 38ms)
+ GET /login 200 in 56ms (compile: 21ms, proxy.ts: 14ms, render: 21ms)
+ GET /login 200 in 63ms (compile: 5ms, proxy.ts: 13ms, render: 44ms)
+ GET /login 200 in 62ms (compile: 27ms, proxy.ts: 12ms, render: 22ms)
+ GET /api/check-env 200 in 221ms (compile: 208ms, render: 13ms)
+Attempting login for: admin@example.com
+AUTH_SECRET defined: true
+Authorize called with: admin@example.com
+Password matched, returning user
+Login error: Error: NEXT_REDIRECT
+    at async authenticate (app/lib/actions.ts:15:5)
+  13 |     // Determine redirect based on role if possible, but we can't know role easily here before sign in.
+  14 |     // Default to / which handles the role-based redirect.
+> 15 |     await signIn('credentials', formData, { redirectTo: '/' })
+     |     ^
+  16 |   } catch (error) {
+  17 |     console.log('Login error:', error)
+  18 |     if (error instanceof AuthError) { {
+  digest: 'NEXT_REDIRECT;push;http://localhost:3005/login;307;'
+}
+ GET /login 200 in 67ms (compile: 5ms, proxy.ts: 11ms, render: 50ms)
+ POST /login 303 in 3.9s (compile: 5ms, proxy.ts: 15ms, render: 3.9s)
+ GET /login 200 in 227ms (compile: 8ms, proxy.ts: 19ms, render: 201ms)
+Attempting login for: admin@exemple.com
+AUTH_SECRET defined: true
+Authorize called with: admin@exemple.com
+User not found
+[31m[auth][error][0m CredentialsSignin: Read more at https://errors.authjs.dev#credentialssignin
+    at Module.callback (/home/ahmedsalem/Desktop/challenge-gamification-app/frontend/.next/dev/server/chunks/ssr/node_modules_@auth_core_e00e322b._.js:4314:30)
+    at async AuthInternal (/home/ahmedsalem/Desktop/challenge-gamification-app/frontend/.next/dev/server/chunks/ssr/node_modules_@auth_core_e00e322b._.js:5148:24)
+    at async Auth (/home/ahmedsalem/Desktop/challenge-gamification-app/frontend/.next/dev/server/chunks/ssr/node_modules_@auth_core_e00e322b._.js:5370:34)
+    at async signIn (/home/ahmedsalem/Desktop/challenge-gamification-app/frontend/.next/dev/server/chunks/ssr/node_modules_c69909f6._.js:4163:17)
+    at async authenticate (/home/ahmedsalem/Desktop/challenge-gamification-app/frontend/.next/dev/server/chunks/ssr/[root-of-the-server]__74030bdc._.js:166:9)
+    at async executeActionAndPrepareForRender (/home/ahmedsalem/Desktop/challenge-gamification-app/frontend/node_modules/next/dist/compiled/next-server/app-page-turbo.runtime.dev.js:35:4449)
+    at async /home/ahmedsalem/Desktop/challenge-gamification-app/frontend/node_modules/next/dist/compiled/next-server/app-page-turbo.runtime.dev.js:35:2264
+    at async handleAction (/home/ahmedsalem/Desktop/challenge-gamification-app/frontend/node_modules/next/dist/compiled/next-server/app-page-turbo.runtime.dev.js:34:23622)
+    at async renderToHTMLOrFlightImpl (/home/ahmedsalem/Desktop/challenge-gamification-app/frontend/node_modules/next/dist/compiled/next-server/app-page-turbo.runtime.dev.js:40:41714)
+    at async doRender (/home/ahmedsalem/Desktop/challenge-gamification-app/frontend/.next/dev/server/chunks/ssr/node_modules_next_dist_765c5802._.js:8080:28)
+    at async AppPageRouteModule.handleResponse (/home/ahmedsalem/Desktop/challenge-gamification-app/frontend/node_modules/next/dist/compiled/next-server/app-page-turbo.runtime.dev.js:42:63162)
+    at async handleResponse (/home/ahmedsalem/Desktop/challenge-gamification-app/frontend/.next/dev/server/chunks/ssr/node_modules_next_dist_765c5802._.js:8286:32)
+    at async handler (/home/ahmedsalem/Desktop/challenge-gamification-app/frontend/.next/dev/server/chunks/ssr/node_modules_next_dist_765c5802._.js:8657:20)
+    at async DevServer.renderToResponseWithComponentsImpl (/home/ahmedsalem/Desktop/challenge-gamification-app/frontend/node_modules/next/dist/server/base-server.js:1413:9)
+    at async DevServer.renderPageComponent (/home/ahmedsalem/Desktop/challenge-gamification-app/frontend/node_modules/next/dist/server/base-server.js:1465:24)
+    at async DevServer.renderToResponseImpl (/home/ahmedsalem/Desktop/challenge-gamification-app/frontend/node_modules/next/dist/server/base-server.js:1515:32)
+    at async DevServer.pipeImpl (/home/ahmedsalem/Desktop/challenge-gamification-app/frontend/node_modules/next/dist/server/base-server.js:1021:25)
+    at async NextNodeServer.handleCatchallRenderRequest (/home/ahmedsalem/Desktop/challenge-gamification-app/frontend/node_modules/next/dist/server/next-server.js:394:17)
+    at async DevServer.handleRequestImpl (/home/ahmedsalem/Desktop/challenge-gamification-app/frontend/node_modules/next/dist/server/base-server.js:912:17)
+    at async /home/ahmedsalem/Desktop/challenge-gamification-app/frontend/node_modules/next/dist/server/dev/next-dev-server.js:382:20
+    at async Span.traceAsyncFn (/home/ahmedsalem/Desktop/challenge-gamification-app/frontend/node_modules/next/dist/trace/trace.js:157:20)
+    at async DevServer.handleRequest (/home/ahmedsalem/Desktop/challenge-gamification-app/frontend/node_modules/next/dist/server/dev/next-dev-server.js:378:24)
+    at async invokeRender (/home/ahmedsalem/Desktop/challenge-gamification-app/frontend/node_modules/next/dist/server/lib/router-server.js:240:21)
+    at async handleRequest (/home/ahmedsalem/Desktop/challenge-gamification-app/frontend/node_modules/next/dist/server/lib/router-server.js:436:24)
+    at async requestHandlerImpl (/home/ahmedsalem/Desktop/challenge-gamification-app/frontend/node_modules/next/dist/server/lib/router-server.js:484:13)
+    at async Server.requestListener (/home/ahmedsalem/Desktop/challenge-gamification-app/frontend/node_modules/next/dist/server/lib/start-server.js:226:13)
+Login error: CredentialsSignin: Read more at https://errors.authjs.dev#credentialssignin
+    at async authenticate (app/lib/actions.ts:15:5)
+  13 |     // Determine redirect based on role if possible, but we can't know role easily here before sign in.
+  14 |     // Default to / which handles the role-based redirect.
+> 15 |     await signIn('credentials', formData, { redirectTo: '/' })
+     |     ^
+  16 |   } catch (error) {
+  17 |     console.log('Login error:', error)
+  18 |     if (error instanceof AuthError) { {
+  type: 'CredentialsSignin',
+  kind: 'signIn',
+  code: 'credentials'
+}
+ POST /login 200 in 2.3s (compile: 6ms, proxy.ts: 16ms, render: 2.3s)
+Attempting login for: admin@example.com
+AUTH_SECRET defined: true
+Authorize called with: admin@example.com
+Password matched, returning user
+Login error: Error: NEXT_REDIRECT
+    at async authenticate (app/lib/actions.ts:15:5)
+  13 |     // Determine redirect based on role if possible, but we can't know role easily here before sign in.
+  14 |     // Default to / which handles the role-based redirect.
+> 15 |     await signIn('credentials', formData, { redirectTo: '/' })
+     |     ^
+  16 |   } catch (error) {
+  17 |     console.log('Login error:', error)
+  18 |     if (error instanceof AuthError) { {
+  digest: 'NEXT_REDIRECT;push;http://localhost:3005/login;307;'
+}
+ GET /login 200 in 84ms (compile: 6ms, proxy.ts: 16ms, render: 62ms)
+ POST /login 303 in 1192ms (compile: 7ms, proxy.ts: 28ms, render: 1157ms)
+ ✓ Compiled in 50ms
+ GET /login 200 in 475ms (compile: 252ms, proxy.ts: 41ms, render: 181ms)
+ GET /login 200 in 476ms (compile: 329ms, proxy.ts: 41ms, render: 106ms)
+ ✓ Compiled in 318ms
+ GET /login 200 in 607ms (compile: 272ms, proxy.ts: 88ms, render: 247ms)
+ GET /login 200 in 585ms (compile: 395ms, proxy.ts: 91ms, render: 99ms)
+ GET /login 200 in 482ms (compile: 11ms, proxy.ts: 148ms, render: 324ms)
+ GET /login 200 in 464ms (compile: 133ms, proxy.ts: 134ms, render: 197ms)
+ ✓ Compiled in 75ms
+ GET /dashboard 200 in 4.0s (compile: 1148ms, proxy.ts: 31ms, render: 2.8s)
+ GET /dashboard 200 in 5.2s (compile: 1277ms, proxy.ts: 33ms, render: 3.9s)
+ ✓ Compiled in 499ms
+ ✓ Compiled in 89ms
+ GET /dashboard 200 in 2.2s (compile: 557ms, proxy.ts: 87ms, render: 1586ms)
+ GET /dashboard 200 in 1054ms (compile: 238ms, proxy.ts: 63ms, render: 753ms)
+ GET /dashboard 200 in 2.5s (compile: 386ms, proxy.ts: 62ms, render: 2.0s)
+ GET /dashboard 200 in 573ms (compile: 7ms, proxy.ts: 25ms, render: 540ms)
+ GET /dashboard 200 in 1056ms (compile: 45ms, proxy.ts: 25ms, render: 985ms)
+ GET /dashboard 200 in 656ms (compile: 52ms, proxy.ts: 21ms, render: 583ms)
+ GET /dashboard 200 in 1003ms (compile: 7ms, proxy.ts: 23ms, render: 973ms)
+ GET /dashboard 200 in 1160ms (compile: 8ms, proxy.ts: 35ms, render: 1117ms)
+ GET /dashboard 200 in 3.4s (compile: 50ms, proxy.ts: 34ms, render: 3.3s)
+ GET /dashboard 200 in 859ms (compile: 43ms, proxy.ts: 22ms, render: 794ms)
+ GET /dashboard 200 in 1165ms (compile: 8ms, proxy.ts: 23ms, render: 1135ms)
+ GET /dashboard 200 in 1392ms (compile: 4ms, proxy.ts: 13ms, render: 1374ms)
+ ✓ Compiled in 38ms
+ ✓ Compiled in 86ms
+ GET /dashboard 200 in 1008ms (compile: 359ms, proxy.ts: 43ms, render: 605ms)
+ GET /dashboard 200 in 1236ms (compile: 228ms, proxy.ts: 38ms, render: 970ms)
+ GET /dashboard 200 in 1002ms (compile: 421ms, proxy.ts: 23ms, render: 558ms)
+ GET /dashboard 200 in 1127ms (compile: 241ms, proxy.ts: 22ms, render: 865ms)
+ GET /dashboard 200 in 587ms (compile: 8ms, proxy.ts: 39ms, render: 540ms)
+ GET /dashboard 200 in 1410ms (compile: 38ms, proxy.ts: 39ms, render: 1334ms)
+ GET /dashboard 200 in 468ms (compile: 8ms, proxy.ts: 25ms, render: 436ms)
+ GET /dashboard 200 in 495ms (compile: 48ms, proxy.ts: 24ms, render: 423ms)
+ ✓ Compiled in 44ms
+ GET /dashboard 200 in 1177ms (compile: 441ms, proxy.ts: 43ms, render: 693ms)
+ GET /dashboard 200 in 845ms (compile: 11ms, proxy.ts: 34ms, render: 801ms)
+ ✓ Compiled in 371ms
+ GET /dashboard 200 in 3.5s (compile: 256ms, proxy.ts: 47ms, render: 3.2s)
+ GET /dashboard 200 in 2.8s (compile: 61ms, proxy.ts: 34ms, render: 2.7s)
+ GET /dashboard 200 in 854ms (compile: 247ms, proxy.ts: 28ms, render: 579ms)
+ GET /dashboard 200 in 916ms (compile: 393ms, proxy.ts: 26ms, render: 496ms)
+ GET /dashboard 200 in 458ms (compile: 51ms, proxy.ts: 24ms, render: 383ms)
+ GET /dashboard 200 in 541ms (compile: 9ms, proxy.ts: 25ms, render: 508ms)
+ GET /api/auth/session 200 in 1977ms (compile: 1882ms, render: 96ms)
+ GET /api/auth/session 200 in 1986ms (compile: 1884ms, render: 102ms)
+ GET /api/auth/session 200 in 2.1s (compile: 2.0s, render: 106ms)
+ GET /api/auth/session 200 in 2.1s (compile: 2.0s, render: 110ms)
+ GET /api/auth/session 200 in 185ms (compile: 91ms, render: 94ms)
+ GET /api/auth/session 200 in 190ms (compile: 83ms, render: 107ms)
+ GET /api/auth/session 200 in 191ms (compile: 98ms, render: 92ms)
+ GET /api/auth/session 200 in 195ms (compile: 119ms, render: 76ms)
+ GET /api/auth/session 200 in 198ms (compile: 127ms, render: 71ms)
+ GET /api/auth/session 200 in 76ms (compile: 13ms, render: 62ms)
+ GET /api/auth/session 200 in 41ms (compile: 4ms, render: 37ms)
+ GET /api/auth/session 200 in 45ms (compile: 14ms, render: 30ms)
+ GET /dashboard 200 in 928ms (compile: 391ms, proxy.ts: 37ms, render: 501ms)
+ ✓ Compiled in 21ms
+ GET /dashboard 200 in 1038ms (compile: 313ms, proxy.ts: 32ms, render: 694ms)
+ GET /dashboard 200 in 455ms (compile: 30ms, proxy.ts: 18ms, render: 407ms)
+ GET /dashboard 200 in 495ms (compile: 5ms, proxy.ts: 18ms, render: 472ms)
+ ⨯ ./app/layout.tsx:5:1
+Module not found: Can't resolve './providers'
+[0m [90m 3 |[39m [36mimport[39m [32m"./globals.css"[39m[33m;[39m
+ [90m 4 |[39m [36mimport[39m { [33mNavbar[39m } [36mfrom[39m [32m"@/components/Navbar"[39m[33m;[39m
+[31m[1m>[22m[39m[90m 5 |[39m [36mimport[39m { [33mProviders[39m } [36mfrom[39m [32m"./providers"[39m[33m;[39m
+ [90m   |[39m [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+ [90m 6 |[39m
+ [90m 7 |[39m [36mconst[39m geistSans [33m=[39m [33mGeist[39m({
+ [90m 8 |[39m   variable[33m:[39m [32m"--font-geist-sans"[39m[33m,[39m[0m
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+ ⨯ ./app/layout.tsx:5:1
+Module not found: Can't resolve './providers'
+[0m [90m 3 |[39m [36mimport[39m [32m"./globals.css"[39m[33m;[39m
+ [90m 4 |[39m [36mimport[39m { [33mNavbar[39m } [36mfrom[39m [32m"@/components/Navbar"[39m[33m;[39m
+[31m[1m>[22m[39m[90m 5 |[39m [36mimport[39m { [33mProviders[39m } [36mfrom[39m [32m"./providers"[39m[33m;[39m
+ [90m   |[39m [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+ [90m 6 |[39m
+ [90m 7 |[39m [36mconst[39m geistSans [33m=[39m [33mGeist[39m({
+ [90m 8 |[39m   variable[33m:[39m [32m"--font-geist-sans"[39m[33m,[39m[0m
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+ ⨯ ./app/layout.tsx:5:1
+Module not found: Can't resolve './providers'
+[0m [90m 3 |[39m [36mimport[39m [32m"./globals.css"[39m[33m;[39m
+ [90m 4 |[39m [36mimport[39m { [33mNavbar[39m } [36mfrom[39m [32m"@/components/Navbar"[39m[33m;[39m
+[31m[1m>[22m[39m[90m 5 |[39m [36mimport[39m { [33mProviders[39m } [36mfrom[39m [32m"./providers"[39m[33m;[39m
+ [90m   |[39m [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+ [90m 6 |[39m
+ [90m 7 |[39m [36mconst[39m geistSans [33m=[39m [33mGeist[39m({
+ [90m 8 |[39m   variable[33m:[39m [32m"--font-geist-sans"[39m[33m,[39m[0m
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+ ⨯ ./app/layout.tsx:5:1
+Module not found: Can't resolve './providers'
+[0m [90m 3 |[39m [36mimport[39m [32m"./globals.css"[39m[33m;[39m
+ [90m 4 |[39m [36mimport[39m { [33mNavbar[39m } [36mfrom[39m [32m"@/components/Navbar"[39m[33m;[39m
+[31m[1m>[22m[39m[90m 5 |[39m [36mimport[39m { [33mProviders[39m } [36mfrom[39m [32m"./providers"[39m[33m;[39m
+ [90m   |[39m [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+ [90m 6 |[39m
+ [90m 7 |[39m [36mconst[39m geistSans [33m=[39m [33mGeist[39m({
+ [90m 8 |[39m   variable[33m:[39m [32m"--font-geist-sans"[39m[33m,[39m[0m
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+ ⨯ ./app/layout.tsx:5:1
+Module not found: Can't resolve './providers'
+[0m [90m 3 |[39m [36mimport[39m [32m"./globals.css"[39m[33m;[39m
+ [90m 4 |[39m [36mimport[39m { [33mNavbar[39m } [36mfrom[39m [32m"@/components/Navbar"[39m[33m;[39m
+[31m[1m>[22m[39m[90m 5 |[39m [36mimport[39m { [33mProviders[39m } [36mfrom[39m [32m"./providers"[39m[33m;[39m
+ [90m   |[39m [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+ [90m 6 |[39m
+ [90m 7 |[39m [36mconst[39m geistSans [33m=[39m [33mGeist[39m({
+ [90m 8 |[39m   variable[33m:[39m [32m"--font-geist-sans"[39m[33m,[39m[0m
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+ ⨯ ./app/layout.tsx:5:1
+Module not found: Can't resolve './providers'
+[0m [90m 3 |[39m [36mimport[39m [32m"./globals.css"[39m[33m;[39m
+ [90m 4 |[39m [36mimport[39m { [33mNavbar[39m } [36mfrom[39m [32m"@/components/Navbar"[39m[33m;[39m
+[31m[1m>[22m[39m[90m 5 |[39m [36mimport[39m { [33mProviders[39m } [36mfrom[39m [32m"./providers"[39m[33m;[39m
+ [90m   |[39m [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+ [90m 6 |[39m
+ [90m 7 |[39m [36mconst[39m geistSans [33m=[39m [33mGeist[39m({
+ [90m 8 |[39m   variable[33m:[39m [32m"--font-geist-sans"[39m[33m,[39m[0m
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+ ⨯ ./app/layout.tsx:5:1
+Module not found: Can't resolve './providers'
+[0m [90m 3 |[39m [36mimport[39m [32m"./globals.css"[39m[33m;[39m
+ [90m 4 |[39m [36mimport[39m { [33mNavbar[39m } [36mfrom[39m [32m"@/components/Navbar"[39m[33m;[39m
+[31m[1m>[22m[39m[90m 5 |[39m [36mimport[39m { [33mProviders[39m } [36mfrom[39m [32m"./providers"[39m[33m;[39m
+ [90m   |[39m [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+ [90m 6 |[39m
+ [90m 7 |[39m [36mconst[39m geistSans [33m=[39m [33mGeist[39m({
+ [90m 8 |[39m   variable[33m:[39m [32m"--font-geist-sans"[39m[33m,[39m[0m
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+ ⨯ ./app/layout.tsx:5:1
+Module not found: Can't resolve './providers'
+[0m [90m 3 |[39m [36mimport[39m [32m"./globals.css"[39m[33m;[39m
+ [90m 4 |[39m [36mimport[39m { [33mNavbar[39m } [36mfrom[39m [32m"@/components/Navbar"[39m[33m;[39m
+[31m[1m>[22m[39m[90m 5 |[39m [36mimport[39m { [33mProviders[39m } [36mfrom[39m [32m"./providers"[39m[33m;[39m
+ [90m   |[39m [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+ [90m 6 |[39m
+ [90m 7 |[39m [36mconst[39m geistSans [33m=[39m [33mGeist[39m({
+ [90m 8 |[39m   variable[33m:[39m [32m"--font-geist-sans"[39m[33m,[39m[0m
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+ ⨯ ./app/layout.tsx:5:1
+Module not found: Can't resolve './providers'
+[0m [90m 3 |[39m [36mimport[39m [32m"./globals.css"[39m[33m;[39m
+ [90m 4 |[39m [36mimport[39m { [33mNavbar[39m } [36mfrom[39m [32m"@/components/Navbar"[39m[33m;[39m
+[31m[1m>[22m[39m[90m 5 |[39m [36mimport[39m { [33mProviders[39m } [36mfrom[39m [32m"./providers"[39m[33m;[39m
+ [90m   |[39m [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+ [90m 6 |[39m
+ [90m 7 |[39m [36mconst[39m geistSans [33m=[39m [33mGeist[39m({
+ [90m 8 |[39m   variable[33m:[39m [32m"--font-geist-sans"[39m[33m,[39m[0m
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+ ⨯ ./app/layout.tsx:5:1
+Module not found: Can't resolve './providers'
+[0m [90m 3 |[39m [36mimport[39m [32m"./globals.css"[39m[33m;[39m
+ [90m 4 |[39m [36mimport[39m { [33mNavbar[39m } [36mfrom[39m [32m"@/components/Navbar"[39m[33m;[39m
+[31m[1m>[22m[39m[90m 5 |[39m [36mimport[39m { [33mProviders[39m } [36mfrom[39m [32m"./providers"[39m[33m;[39m
+ [90m   |[39m [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+ [90m 6 |[39m
+ [90m 7 |[39m [36mconst[39m geistSans [33m=[39m [33mGeist[39m({
+ [90m 8 |[39m   variable[33m:[39m [32m"--font-geist-sans"[39m[33m,[39m[0m
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+ ⨯ ./app/layout.tsx:5:1
+Module not found: Can't resolve './providers'
+[0m [90m 3 |[39m [36mimport[39m [32m"./globals.css"[39m[33m;[39m
+ [90m 4 |[39m [36mimport[39m { [33mNavbar[39m } [36mfrom[39m [32m"@/components/Navbar"[39m[33m;[39m
+[31m[1m>[22m[39m[90m 5 |[39m [36mimport[39m { [33mProviders[39m } [36mfrom[39m [32m"./providers"[39m[33m;[39m
+ [90m   |[39m [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+ [90m 6 |[39m
+ [90m 7 |[39m [36mconst[39m geistSans [33m=[39m [33mGeist[39m({
+ [90m 8 |[39m   variable[33m:[39m [32m"--font-geist-sans"[39m[33m,[39m[0m
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+ ⨯ ./app/layout.tsx:5:1
+Module not found: Can't resolve './providers'
+[0m [90m 3 |[39m [36mimport[39m [32m"./globals.css"[39m[33m;[39m
+ [90m 4 |[39m [36mimport[39m { [33mNavbar[39m } [36mfrom[39m [32m"@/components/Navbar"[39m[33m;[39m
+[31m[1m>[22m[39m[90m 5 |[39m [36mimport[39m { [33mProviders[39m } [36mfrom[39m [32m"./providers"[39m[33m;[39m
+ [90m   |[39m [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+ [90m 6 |[39m
+ [90m 7 |[39m [36mconst[39m geistSans [33m=[39m [33mGeist[39m({
+ [90m 8 |[39m   variable[33m:[39m [32m"--font-geist-sans"[39m[33m,[39m[0m
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+ ⨯ ./app/layout.tsx:5:1
+Module not found: Can't resolve './providers'
+[0m [90m 3 |[39m [36mimport[39m [32m"./globals.css"[39m[33m;[39m
+ [90m 4 |[39m [36mimport[39m { [33mNavbar[39m } [36mfrom[39m [32m"@/components/Navbar"[39m[33m;[39m
+[31m[1m>[22m[39m[90m 5 |[39m [36mimport[39m { [33mProviders[39m } [36mfrom[39m [32m"./providers"[39m[33m;[39m
+ [90m   |[39m [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+ [90m 6 |[39m
+ [90m 7 |[39m [36mconst[39m geistSans [33m=[39m [33mGeist[39m({
+ [90m 8 |[39m   variable[33m:[39m [32m"--font-geist-sans"[39m[33m,[39m[0m
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+ ⨯ ./app/layout.tsx:5:1
+Module not found: Can't resolve './providers'
+[0m [90m 3 |[39m [36mimport[39m [32m"./globals.css"[39m[33m;[39m
+ [90m 4 |[39m [36mimport[39m { [33mNavbar[39m } [36mfrom[39m [32m"@/components/Navbar"[39m[33m;[39m
+[31m[1m>[22m[39m[90m 5 |[39m [36mimport[39m { [33mProviders[39m } [36mfrom[39m [32m"./providers"[39m[33m;[39m
+ [90m   |[39m [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+ [90m 6 |[39m
+ [90m 7 |[39m [36mconst[39m geistSans [33m=[39m [33mGeist[39m({
+ [90m 8 |[39m   variable[33m:[39m [32m"--font-geist-sans"[39m[33m,[39m[0m
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+ ⨯ ./app/layout.tsx:5:1
+Module not found: Can't resolve './providers'
+[0m [90m 3 |[39m [36mimport[39m [32m"./globals.css"[39m[33m;[39m
+ [90m 4 |[39m [36mimport[39m { [33mNavbar[39m } [36mfrom[39m [32m"@/components/Navbar"[39m[33m;[39m
+[31m[1m>[22m[39m[90m 5 |[39m [36mimport[39m { [33mProviders[39m } [36mfrom[39m [32m"./providers"[39m[33m;[39m
+ [90m   |[39m [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+ [90m 6 |[39m
+ [90m 7 |[39m [36mconst[39m geistSans [33m=[39m [33mGeist[39m({
+ [90m 8 |[39m   variable[33m:[39m [32m"--font-geist-sans"[39m[33m,[39m[0m
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+ ⨯ ./app/layout.tsx:5:1
+Module not found: Can't resolve './providers'
+[0m [90m 3 |[39m [36mimport[39m [32m"./globals.css"[39m[33m;[39m
+ [90m 4 |[39m [36mimport[39m { [33mNavbar[39m } [36mfrom[39m [32m"@/components/Navbar"[39m[33m;[39m
+[31m[1m>[22m[39m[90m 5 |[39m [36mimport[39m { [33mProviders[39m } [36mfrom[39m [32m"./providers"[39m[33m;[39m
+ [90m   |[39m [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+ [90m 6 |[39m
+ [90m 7 |[39m [36mconst[39m geistSans [33m=[39m [33mGeist[39m({
+ [90m 8 |[39m   variable[33m:[39m [32m"--font-geist-sans"[39m[33m,[39m[0m
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+ ⨯ ./app/layout.tsx:5:1
+Module not found: Can't resolve './providers'
+[0m [90m 3 |[39m [36mimport[39m [32m"./globals.css"[39m[33m;[39m
+ [90m 4 |[39m [36mimport[39m { [33mNavbar[39m } [36mfrom[39m [32m"@/components/Navbar"[39m[33m;[39m
+[31m[1m>[22m[39m[90m 5 |[39m [36mimport[39m { [33mProviders[39m } [36mfrom[39m [32m"./providers"[39m[33m;[39m
+ [90m   |[39m [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+ [90m 6 |[39m
+ [90m 7 |[39m [36mconst[39m geistSans [33m=[39m [33mGeist[39m({
+ [90m 8 |[39m   variable[33m:[39m [32m"--font-geist-sans"[39m[33m,[39m[0m
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+ ⨯ ./app/layout.tsx:5:1
+Module not found: Can't resolve './providers'
+[0m [90m 3 |[39m [36mimport[39m [32m"./globals.css"[39m[33m;[39m
+ [90m 4 |[39m [36mimport[39m { [33mNavbar[39m } [36mfrom[39m [32m"@/components/Navbar"[39m[33m;[39m
+[31m[1m>[22m[39m[90m 5 |[39m [36mimport[39m { [33mProviders[39m } [36mfrom[39m [32m"./providers"[39m[33m;[39m
+ [90m   |[39m [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+ [90m 6 |[39m
+ [90m 7 |[39m [36mconst[39m geistSans [33m=[39m [33mGeist[39m({
+ [90m 8 |[39m   variable[33m:[39m [32m"--font-geist-sans"[39m[33m,[39m[0m
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+ ⨯ ./app/layout.tsx:5:1
+Module not found: Can't resolve './providers'
+[0m [90m 3 |[39m [36mimport[39m [32m"./globals.css"[39m[33m;[39m
+ [90m 4 |[39m [36mimport[39m { [33mNavbar[39m } [36mfrom[39m [32m"@/components/Navbar"[39m[33m;[39m
+[31m[1m>[22m[39m[90m 5 |[39m [36mimport[39m { [33mProviders[39m } [36mfrom[39m [32m"./providers"[39m[33m;[39m
+ [90m   |[39m [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+ [90m 6 |[39m
+ [90m 7 |[39m [36mconst[39m geistSans [33m=[39m [33mGeist[39m({
+ [90m 8 |[39m   variable[33m:[39m [32m"--font-geist-sans"[39m[33m,[39m[0m
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+ ⨯ ./app/layout.tsx:5:1
+Module not found: Can't resolve './providers'
+[0m [90m 3 |[39m [36mimport[39m [32m"./globals.css"[39m[33m;[39m
+ [90m 4 |[39m [36mimport[39m { [33mNavbar[39m } [36mfrom[39m [32m"@/components/Navbar"[39m[33m;[39m
+[31m[1m>[22m[39m[90m 5 |[39m [36mimport[39m { [33mProviders[39m } [36mfrom[39m [32m"./providers"[39m[33m;[39m
+ [90m   |[39m [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+ [90m 6 |[39m
+ [90m 7 |[39m [36mconst[39m geistSans [33m=[39m [33mGeist[39m({
+ [90m 8 |[39m   variable[33m:[39m [32m"--font-geist-sans"[39m[33m,[39m[0m
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+ ⨯ ./app/layout.tsx:5:1
+Module not found: Can't resolve './providers'
+[0m [90m 3 |[39m [36mimport[39m [32m"./globals.css"[39m[33m;[39m
+ [90m 4 |[39m [36mimport[39m { [33mNavbar[39m } [36mfrom[39m [32m"@/components/Navbar"[39m[33m;[39m
+[31m[1m>[22m[39m[90m 5 |[39m [36mimport[39m { [33mProviders[39m } [36mfrom[39m [32m"./providers"[39m[33m;[39m
+ [90m   |[39m [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+ [90m 6 |[39m
+ [90m 7 |[39m [36mconst[39m geistSans [33m=[39m [33mGeist[39m({
+ [90m 8 |[39m   variable[33m:[39m [32m"--font-geist-sans"[39m[33m,[39m[0m
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+ ⨯ ./app/layout.tsx:5:1
+Module not found: Can't resolve './providers'
+[0m [90m 3 |[39m [36mimport[39m [32m"./globals.css"[39m[33m;[39m
+ [90m 4 |[39m [36mimport[39m { [33mNavbar[39m } [36mfrom[39m [32m"@/components/Navbar"[39m[33m;[39m
+[31m[1m>[22m[39m[90m 5 |[39m [36mimport[39m { [33mProviders[39m } [36mfrom[39m [32m"./providers"[39m[33m;[39m
+ [90m   |[39m [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+ [90m 6 |[39m
+ [90m 7 |[39m [36mconst[39m geistSans [33m=[39m [33mGeist[39m({
+ [90m 8 |[39m   variable[33m:[39m [32m"--font-geist-sans"[39m[33m,[39m[0m
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+ ⨯ ./app/layout.tsx:5:1
+Module not found: Can't resolve './providers'
+[0m [90m 3 |[39m [36mimport[39m [32m"./globals.css"[39m[33m;[39m
+ [90m 4 |[39m [36mimport[39m { [33mNavbar[39m } [36mfrom[39m [32m"@/components/Navbar"[39m[33m;[39m
+[31m[1m>[22m[39m[90m 5 |[39m [36mimport[39m { [33mProviders[39m } [36mfrom[39m [32m"./providers"[39m[33m;[39m
+ [90m   |[39m [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+ [90m 6 |[39m
+ [90m 7 |[39m [36mconst[39m geistSans [33m=[39m [33mGeist[39m({
+ [90m 8 |[39m   variable[33m:[39m [32m"--font-geist-sans"[39m[33m,[39m[0m
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+ ⨯ ./app/layout.tsx:5:1
+Module not found: Can't resolve './providers'
+[0m [90m 3 |[39m [36mimport[39m [32m"./globals.css"[39m[33m;[39m
+ [90m 4 |[39m [36mimport[39m { [33mNavbar[39m } [36mfrom[39m [32m"@/components/Navbar"[39m[33m;[39m
+[31m[1m>[22m[39m[90m 5 |[39m [36mimport[39m { [33mProviders[39m } [36mfrom[39m [32m"./providers"[39m[33m;[39m
+ [90m   |[39m [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+ [90m 6 |[39m
+ [90m 7 |[39m [36mconst[39m geistSans [33m=[39m [33mGeist[39m({
+ [90m 8 |[39m   variable[33m:[39m [32m"--font-geist-sans"[39m[33m,[39m[0m
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+ ⨯ ./app/layout.tsx:5:1
+Module not found: Can't resolve './providers'
+[0m [90m 3 |[39m [36mimport[39m [32m"./globals.css"[39m[33m;[39m
+ [90m 4 |[39m [36mimport[39m { [33mNavbar[39m } [36mfrom[39m [32m"@/components/Navbar"[39m[33m;[39m
+[31m[1m>[22m[39m[90m 5 |[39m [36mimport[39m { [33mProviders[39m } [36mfrom[39m [32m"./providers"[39m[33m;[39m
+ [90m   |[39m [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+ [90m 6 |[39m
+ [90m 7 |[39m [36mconst[39m geistSans [33m=[39m [33mGeist[39m({
+ [90m 8 |[39m   variable[33m:[39m [32m"--font-geist-sans"[39m[33m,[39m[0m
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+ ⨯ ./app/layout.tsx:5:1
+Module not found: Can't resolve './providers'
+[0m [90m 3 |[39m [36mimport[39m [32m"./globals.css"[39m[33m;[39m
+ [90m 4 |[39m [36mimport[39m { [33mNavbar[39m } [36mfrom[39m [32m"@/components/Navbar"[39m[33m;[39m
+[31m[1m>[22m[39m[90m 5 |[39m [36mimport[39m { [33mProviders[39m } [36mfrom[39m [32m"./providers"[39m[33m;[39m
+ [90m   |[39m [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+ [90m 6 |[39m
+ [90m 7 |[39m [36mconst[39m geistSans [33m=[39m [33mGeist[39m({
+ [90m 8 |[39m   variable[33m:[39m [32m"--font-geist-sans"[39m[33m,[39m[0m
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+ ⨯ ./app/layout.tsx:5:1
+Module not found: Can't resolve './providers'
+[0m [90m 3 |[39m [36mimport[39m [32m"./globals.css"[39m[33m;[39m
+ [90m 4 |[39m [36mimport[39m { [33mNavbar[39m } [36mfrom[39m [32m"@/components/Navbar"[39m[33m;[39m
+[31m[1m>[22m[39m[90m 5 |[39m [36mimport[39m { [33mProviders[39m } [36mfrom[39m [32m"./providers"[39m[33m;[39m
+ [90m   |[39m [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+ [90m 6 |[39m
+ [90m 7 |[39m [36mconst[39m geistSans [33m=[39m [33mGeist[39m({
+ [90m 8 |[39m   variable[33m:[39m [32m"--font-geist-sans"[39m[33m,[39m[0m
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+ ⨯ ./app/layout.tsx:5:1
+Module not found: Can't resolve './providers'
+[0m [90m 3 |[39m [36mimport[39m [32m"./globals.css"[39m[33m;[39m
+ [90m 4 |[39m [36mimport[39m { [33mNavbar[39m } [36mfrom[39m [32m"@/components/Navbar"[39m[33m;[39m
+[31m[1m>[22m[39m[90m 5 |[39m [36mimport[39m { [33mProviders[39m } [36mfrom[39m [32m"./providers"[39m[33m;[39m
+ [90m   |[39m [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+ [90m 6 |[39m
+ [90m 7 |[39m [36mconst[39m geistSans [33m=[39m [33mGeist[39m({
+ [90m 8 |[39m   variable[33m:[39m [32m"--font-geist-sans"[39m[33m,[39m[0m
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+ ✓ Compiled in 185ms
+ ✓ Compiled in 129ms
+ ✓ Compiled in 9ms
+ ✓ Compiled in 112ms
+ GET /dashboard 200 in 3.7s (compile: 822ms, proxy.ts: 48ms, render: 2.8s)
+ GET /dashboard 200 in 4.3s (compile: 646ms, proxy.ts: 39ms, render: 3.6s)
+ GET /dashboard 200 in 1201ms (compile: 222ms, proxy.ts: 30ms, render: 950ms)
+ GET /dashboard 200 in 1229ms (compile: 375ms, proxy.ts: 31ms, render: 823ms)
+ GET /dashboard 200 in 610ms (compile: 49ms, proxy.ts: 25ms, render: 536ms)
+ GET /dashboard 200 in 631ms (compile: 8ms, proxy.ts: 25ms, render: 598ms)
+ GET /dashboard 200 in 576ms (compile: 40ms, proxy.ts: 25ms, render: 511ms)
+ GET /dashboard 200 in 702ms (compile: 8ms, proxy.ts: 25ms, render: 669ms)

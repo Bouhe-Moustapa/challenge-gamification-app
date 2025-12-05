@@ -1,0 +1,3 @@
+-- AlterTable
+ALTER TABLE "Challenge" ADD COLUMN     "category" TEXT NOT NULL DEFAULT 'General',
+ADD COLUMN     "createdAt" TIMESTAMP(3) NOT NULL DEFAULT CURRENT_TIMESTAMP;

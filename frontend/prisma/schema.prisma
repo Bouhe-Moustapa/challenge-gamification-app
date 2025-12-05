@@ -1,0 +1,83 @@
+generator client {
+  provider      = "prisma-client-js"
+  binaryTargets = ["debian-openssl-3.0.x"]
+}
+
+datasource db {
+  provider = "postgresql"
+  url      = env("DATABASE_URL")
+}
+
+model Badge {
+  id        String      @id
+  name      String
+  condition String
+  icon      String
+  TeamBadge TeamBadge[]
+}
+
+model Challenge {
+  id                String       @id
+  title             String
+  description       String
+  pointsReward      Int
+  difficulty        String
+  isActive          Boolean      @default(true)
+  type              String
+  accessibilityInfo String?
+  category          String       @default("General")
+  createdAt         DateTime     @default(now())
+  Submission        Submission[]
+}
+
+model Submission {
+  id            String    @id
+  teamId        String
+  challengeId   String
+  pointsAwarded Int       @default(0)
+  status        String    @default("PENDING")
+  comment       String?
+  createdAt     DateTime  @default(now())
+  updatedAt     DateTime
+  Challenge     Challenge @relation(fields: [challengeId], references: [id])
+  Team          Team      @relation(fields: [teamId], references: [id])
+}
+
+model Team {
+  id          String       @id
+  name        String
+  slug        String       @unique
+  logoUrl     String?
+  description String?
+  city        String?
+  createdAt   DateTime     @default(now())
+  updatedAt   DateTime
+  totalPoints Int          @default(0)
+  Submission  Submission[]
+  TeamBadge   TeamBadge[]
+  User        User[]
+}
+
+model TeamBadge {
+  id         String   @id
+  teamId     String
+  badgeId    String
+  assignedAt DateTime @default(now())
+  Badge      Badge    @relation(fields: [badgeId], references: [id])
+  Team       Team     @relation(fields: [teamId], references: [id])
+
+  @@unique([teamId, badgeId])
+}
+
+model User {
+  id            String   @id
+  name          String?
+  email         String   @unique
+  password      String
+  role          String   @default("USER")
+  teamId        String?
+  createdAt     DateTime @default(now())
+  updatedAt     DateTime
+  isTeamCaptain Boolean  @default(false)
+  Team          Team?    @relation(fields: [teamId], references: [id])
+}
